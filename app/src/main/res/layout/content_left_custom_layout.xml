@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:titlebar="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false">
+
+
+    <com.adair.tristana.GScrollView
+        android:id="@+id/sv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/layout_fill" />
+    </com.adair.tristana.GScrollView>
+
+    <cn.adair.oxframe.custom.OxTitlebar
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        titlebar:centerText="标题栏"
+        titlebar:centerType="textView"
+        titlebar:leftCustomView="@layout/layout_custom_left"
+        titlebar:leftType="customView" />
+</FrameLayout>

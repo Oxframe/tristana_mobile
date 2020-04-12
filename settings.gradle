@@ -1,0 +1,3 @@
+rootProject.name='tristana_mobile'
+include ':app'
+include ':oxframe'

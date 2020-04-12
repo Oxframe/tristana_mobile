@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:titlebar="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".LaunchActivitya">
+
+    <cn.adair.oxframe.custom.OxTitlebar
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        titlebar:bottomShadowHeight="0dp"
+        titlebar:centerText="通用标题栏"
+        titlebar:centerTextColor="#ffffff"
+        titlebar:centerType="textView"
+        titlebar:rightText="切换图标颜色"
+        titlebar:rightTextColor="#ffffff"
+        titlebar:rightType="textView"
+        titlebar:showBottomLine="false"
+        titlebar:statusBarMode="light" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/titlebar"
+        android:dividerHeight="1px"
+        android:overScrollMode="never" />
+</RelativeLayout>
