@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.adair.tristana">
+    package="cn.adair.tristana">
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="LockedOrientationActivity">
 
         <activity
-            android:name="com.adair.tristana.LaunchActivitya"
-            android:label="@string/title_activity_lauch"
+            android:name=".LaunchActivity"
+            android:label="@string/app_name"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,14 +22,16 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".LaunchActivitya"></activity>
+
         <activity
-            android:name="com.adair.tristana.MainActivity"
+            android:name=".MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
 
         <activity
-            android:name="com.adair.tristana.QuickPreviewActivity"
+            android:name=".QuickPreviewActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />

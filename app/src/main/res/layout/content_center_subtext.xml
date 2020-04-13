@@ -5,13 +5,13 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="false">
 
-    <com.adair.tristana.GScrollView
+    <cn.adair.tristana.GScrollView
         android:id="@+id/sv"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <include layout="@layout/layout_fill" />
-    </com.adair.tristana.GScrollView>
+    </cn.adair.tristana.GScrollView>
 
     <cn.adair.oxframe.custom.OxTitlebar
         android:id="@+id/titlebar"

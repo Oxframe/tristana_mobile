@@ -1,3 +1,4 @@
 rootProject.name='tristana_mobile'
 include ':app'
 include ':oxframe'
+include ':a_template'
