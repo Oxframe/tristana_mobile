@@ -5,15 +5,26 @@
     android:background="#FAFAFA"
     android:orientation="vertical">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="aaa" />
+
     <View
         android:layout_width="match_parent"
         android:layout_height="180dp" />
 
-
     <ImageView
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
         android:layout_gravity="center_horizontal"
         android:background="@mipmap/ic_launcher" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="initMain"
+        android:text="进入" />
 
 </LinearLayout>

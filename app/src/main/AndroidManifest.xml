@@ -8,13 +8,14 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
+        android:theme="@style/Ox.Theme.Main"
         tools:ignore="LockedOrientationActivity">
 
         <activity
             android:name=".LaunchActivity"
             android:label="@string/app_name"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            android:theme="@style/Ox.Theme.Launch">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

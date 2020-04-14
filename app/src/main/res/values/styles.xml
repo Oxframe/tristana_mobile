@@ -1,6 +1,15 @@
 <resources>
 
-    <style name="AppTheme.Base" parent="@style/Theme.AppCompat.Light.NoActionBar">
+    <style name="Ox.Theme.Launch" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fitsSystemWindows">false</item>
+        <item name="android:clipToPadding">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="Ox.Theme.Main" parent="@style/Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
@@ -9,10 +18,8 @@
         <item name="android:fitsSystemWindows">false</item>
         <item name="android:clipToPadding">true</item>
         <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/WindowsAnim</item>
     </style>
-
-
-    <style name="AppTheme" parent="AppTheme.Base"></style>
 
     <style name="WindowsAnim" parent="android:Animation">
         <item name="android:windowEnterAnimation">@anim/slide_left_in</item>
