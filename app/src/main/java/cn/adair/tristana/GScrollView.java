@@ -12,6 +12,8 @@ public class GScrollView extends ScrollView {
 
     public GScrollView(Context context) {
         super(context);
+
+        
         setOverScrollMode(OVER_SCROLL_NEVER);
     }
 
